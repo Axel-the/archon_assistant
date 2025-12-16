@@ -40,18 +40,19 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 
 ### ⚠️ IMPORTANTE: Seguridad de la API Key
 
-El archivo `config.py` contiene la configuración de tu clave API.
+Este proyecto utiliza variables de entorno para proteger tu API Key.
 
 **NUNCA subas tu API Key real a GitHub.**
 
-1.  Abre el archivo `config.py`.
-2.  Busca la variable `GOOGLE_API_KEY`.
-3.  Reemplaza el valor con tu propia clave obtenida en [Google AI Studio](https://aistudio.google.com/).
+1.  Crea un archivo llamado `.env` en la raíz del proyecto (junto a `main.py`).
+2.  Abre el archivo `.env` y añade tu clave de la siguiente manera:
 
-```python
-# config.py
-GOOGLE_API_KEY = "TU_API_KEY_AQUI"
+```env
+GOOGLE_API_KEY=AI... (Pon tu clave aquí)
 ```
+
+**Nota:** El archivo `.env` ya está añadido al `.gitignore`, por lo que git lo ignorará automáticamente.
+
 
 ## 🎮 Uso
 
