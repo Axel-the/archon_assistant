@@ -48,7 +48,7 @@ Este proyecto utiliza variables de entorno para proteger tu API Key.
 2.  Abre el archivo `.env` y añade tu clave de la siguiente manera:
 
 ```env
-GOOGLE_API_KEY=AI... (Pon tu clave aquí)
+GOOGLE_API_KEY=(Pon tu clave aquí)
 ```
 
 **Nota:** El archivo `.env` ya está añadido al `.gitignore`, por lo que git lo ignorará automáticamente.
