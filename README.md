@@ -42,8 +42,6 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 
 Este proyecto utiliza variables de entorno para proteger tu API Key.
 
-**NUNCA subas tu API Key real a GitHub.**
-
 1.  Crea un archivo llamado `.env` en la raíz del proyecto (junto a `main.py`).
 2.  Abre el archivo `.env` y añade tu clave de la siguiente manera:
 
